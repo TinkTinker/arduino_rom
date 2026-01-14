@@ -91,7 +91,7 @@ uint16_t flag_1_data[] = {
   MI|PCO,  RO|II, PCE,  IO|MI,    AO|RI,  0,             0, 0,   // 0100 - STA
   MI|PCO,  RO|II, PCE,  IO|AI,    0,      0,             0, 0,   // 0101 - LDI
   MI|PCO,  RO|II, PCE,  IO|PCI,   0,      0,             0, 0,   // 0110 - JMP
-  MI|PCO,  RO|II, PCE,  IO|PCI,   0,      0,             0, 0,   // 0111 - JNZ
+  MI|PCO,  RO|II, PCE,  0,        0,      0,             0, 0,   // 0111 - JNZ
   MI|PCO,  RO|II, PCE,  IO|BI,    SO|AI|SUB|FI, 0,       0, 0,   // 1000 - SUBAI
   MI|PCO,  RO|II, PCE,  0,        0,      0,             0, 0,   // 1001
   MI|PCO,  RO|II, PCE,  0,        0,      0,             0, 0,   // 1010
